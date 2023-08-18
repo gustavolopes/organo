@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
+import Rodape from './componentes/Rodape/rodape';
 
 function App() {
   
@@ -66,7 +67,6 @@ function App() {
         >
         </Time>
       )}
-      
       {/*<Time nome="Programação"></Time>
       <Time nome="Front End"></Time>
       <Time nome="Data Science"></Time>
@@ -74,6 +74,7 @@ function App() {
       <Time nome="UX e Design"></Time>
       <Time nome="Mobile"></Time>
       <Time nome="Inovação e Gestão"></Time>*/}
+      <Rodape></Rodape>
     </div>
   );
 }
