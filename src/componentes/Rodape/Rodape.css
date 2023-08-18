@@ -1,38 +1,37 @@
 .rodape {
     background-color: #6278F7;
     text-align: center;
+    align-items: center;
     color: #fff;
     display: table;
-    clear: both;
-    padding: 10 10px;
-    content: "";
+    /*clear: both;*/
+    /*content: "";*/
     width: 100%;
 }
 
 .rodape .esquerda {
-    /*float: left;*/
     display: table-cell;
-    border: 2px solid #000;
-    padding: 10px;
+    padding: 40px;
     width: 45%;
+    vertical-align: middle;
 }
 
 .rodape .esquerda img {
-    padding-right: 10px;
+    padding-right: 40px;
 }
 
 .rodape .centro {
     display: table-cell;
-    border: 2px solid #000;
-    padding: 10px;
+    padding: 40px;
     width: 10%;
+    vertical-align: middle;
 }
 
 .rodape .direita {
-    /*float: right;*/
     display: table-cell;
-    border: 2px solid #000;
-    padding: 10px;
+    padding: 40px;
     font-weight: bolder;
     width: 45%;
+    text-align: center;
+    vertical-align: middle;
 }
